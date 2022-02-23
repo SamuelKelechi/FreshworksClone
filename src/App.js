@@ -5,6 +5,25 @@ import Babe from "./Image/img.png"
 
 
 function App (){
+
+  const lsetf = [
+    {
+      name: "biola",
+      age: 15,
+    },
+    {
+      name: "victor",
+      age: 30,
+    },
+
+    {
+      name: "james",
+      age: 40,    
+    },
+  ]
+
+  console.log(lsetf)
+
   return(
     <div className="Container">
       <div className="Header">
