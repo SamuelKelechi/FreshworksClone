@@ -1,0 +1,71 @@
+.Container{
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header {
+  width: 100%;
+  height: 60px;
+  background-color: #0B1320;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.HeaderWrapper {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav{
+  display: flex;
+  width: 700px;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.Logo {
+  width: 120px;
+}
+
+.HeroHolder {
+  height: 450px;
+  width: 100%;
+  background-color: #C2B0DA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeroWrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Baby{
+  width: 490px;
+  height: 440px;
+  margin-bottom: -15px;
+}
+
+.Left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Heads {
+  font-size: 50px;
+  font-weight: 40px;
+}
+
+.PMan {
+  margin-top: -20px;
+}
